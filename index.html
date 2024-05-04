@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- link fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  </head>
+
+<body>
+    <header>
+      <div class="jumbotron">
+        <h1>MY PORTOFOLIO</h1>
+        <p>SUCI RAMADHANI LUBIS</p>
+      </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Portofolio</a>
+                </li>
+                <li>
+                  <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div id="content">
+            <article id="home" class="card">
+                <h2>Hello, I'm Suci Ramadhani Lubis</h2>
+                <h5 class="twocontent"></h5>
+                <p>I am a student majoring in Informatics Engineering (TI-22) at the Padang Institute of Technology. The deeper I delve into the world of technology, the clearer it becomes to me how important it is to be involved in the ongoing process of digital transformation worldwide. I feel increasingly motivated by the rapid pace of development. I am confident that, with fervent enthusiasm and unwavering determination, I will be able to achieve this goal. I hope to contribute significantly to advancing technology in Indonesia, being part of the foundation that leads this country towards a brighter future.</p>
+
+                <button id="btn1" onclick="goToContact()">Contact Me</button>
+            </article>
+                
+            <article id="portfolio" class="card">
+              <h1>Portofolio</h1>
+              <img src="./image/Sertifikat/aws-x-dicoding-live-membangun-software-lebih-produktif-dengan-gitops-certificate_page-0001.jpg" alt="portfolio" class="img-portofolio" />
+              <img src="./image/Sertifikat/Belajar Dasar Git dan Hub.jpg" alt="portfolio" class="img-portofolio" />
+              <img src="./image/Sertifikat/Belajar Dasar Structured Query Language (SQL) Dicoding.jpg" alt="portfolio" class="img-portofolio" />
+              <img src="./image/Sertifikat/Cloud Practitioner Essential.jpg" alt="portfolio" class="img-portofolio" />
+              <img src="./image/Sertifikat/dari-geologi-hingga-koding-tips-banting-setir-ke-dunia-it-certificate_page-0001.jpg" alt="portfolio" class="img-portofolio" />
+              <img src="./image/Sertifikat/dicoding-developer-coaching-103-front-end-percantik-website-mu-dengan-css-certificate_page-0001.jpg" alt="portfolio" class="img-portofolio" />
+              <img src="./image/Sertifikat/dicoding-developer-coaching-105-front-end-hidup-tentram-dengan-flexbox-certificate_page-0001.jpg" alt="portfolio" class="img-portofolio" />
+              <img src="./image/Sertifikat/dicoding-jobs-live-3-navigating-the-future-career-preparation-for-curriculum-developer-and-code-review-roles-certificate_page-0001.jpg" alt="portfolio" class="img-portofolio" />
+            </article>
+               
+            <article id="contact" class="card">
+              <h2>Contact</h2>
+              
+              <div>
+                <i class="fas fa-envelope"></i> <span>sucilubis20041111@gmail.com</span>
+              </div>
+              <div>
+                <i class="fas fa-phone"></i> <span>+6281265659219</span>
+              </div>
+              <div>
+                <i class="fas fa-map-marker-alt"></i> <span>Medan</span>
+              </div>
+              
+              <div class="social-links">
+                <i class="fab fa-twitter" style="color: rgba(0, 153, 255);"></i>
+                <i class="fab fa-facebook-f" style="color: rgba(52, 85, 148);"></i>
+
+              <a href="https://github.com/Suciramalubis" target="_blank">
+                  <i class="fab fa-github" style="color: black;"></i>
+              </a>              
+
+                <a href="https://www.instagram.com/invites/contact/?i=11ue9nyiejuw5&utm_content=pa9hsga" >
+                <i class="fab fa-instagram" style="color: rgba(230, 41, 104);"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/suci-ramadhani-lubis">
+                  <i class="fab fa-linkedin" style="color: #0a66c2;"></i>
+                </a>
+              </div>
+            </article>
+        </div>
+
+        <aside>
+            <article class="profile card">
+              <header>
+                <h3>SUCI RAMADHANI LUBIS</h3>
+                <p>INSTITUT TEKNOLOGI PADANG</p>
+                <figure>
+                  <img src="./image/profile.png" />
+                  <figcaption>Profile</figcaption>
+                </figure>
+              </header>
+              <section>
+                <h4>Informasi Lainnya</h4>
+                <table>
+                  <tr>
+                    <th>From</th>
+                    <td>Medan, Sumatera Utara</td>
+                  </tr>
+                  <tr>
+                    <th>Date Of Birth</th>
+                    <td>11 November 2004</td>
+                  </tr>
+                </table>
+              </section>
+            </article>
+        </aside>
+    </main>
+
+
+<footer id="footer">
+  <h1 class="text-center"></h1>
+  <div class="copyright text-center">
+    &copy; Copyright <strong>Portofolio</strong>.  All Rights Reserved
+  </div>
+  <div class="credite text-center">
+    Designed By <a href="#home">Suci Ramadhani Lubis</a>
+  </div>
+</footer>
+
+<script>
+  function goToContact() {
+    // Mengarahkan halaman ke bagian "Contact Me" 
+    window.location.href = '#contact';
+  }
+</script>
+
+  </body>
+</html>
